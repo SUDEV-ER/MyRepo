@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-15T17:01:15 IST" name="Suite" finished-at="2022-02-15T17:01:48 IST" duration-ms="32965">
+    <groups>
+    </groups>
+    <test started-at="2022-02-15T17:01:15 IST" name="Test" finished-at="2022-02-15T17:01:48 IST" duration-ms="32965">
+      <class name="testScenarios.Test_Amazon">
+        <test-method is-config="true" signature="driverInstance1(java.lang.String)[pri:0, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:15 IST" name="driverInstance1" finished-at="2022-02-15T17:01:22 IST" duration-ms="7707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstance1 -->
+        <test-method signature="Signin()[pri:0, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:22 IST" name="Signin" finished-at="2022-02-15T17:01:25 IST" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method signature="EnterEmail(java.lang.String)[pri:1, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:25 IST" name="EnterEmail" finished-at="2022-02-15T17:01:28 IST" duration-ms="2393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lordzeus4646@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterEmail -->
+        <test-method signature="EnterPassword(java.lang.String)[pri:2, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:28 IST" name="EnterPassword" finished-at="2022-02-15T17:01:28 IST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lord@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPassword -->
+        <test-method signature="HomePageOperation1(java.lang.String)[pri:3, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:28 IST" name="HomePageOperation1" finished-at="2022-02-15T17:01:35 IST" duration-ms="7235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rich dad poor dad book]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageOperation1 -->
+        <test-method signature="HomePageOperation2()[pri:4, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:35 IST" name="HomePageOperation2" finished-at="2022-02-15T17:01:36 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageOperation2 -->
+        <test-method signature="addToCartOperation()[pri:5, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:36 IST" name="addToCartOperation" finished-at="2022-02-15T17:01:47 IST" duration-ms="10789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartOperation -->
+        <test-method is-config="true" signature="driverInstance2()[pri:0, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-15T17:01:47 IST" name="driverInstance2" finished-at="2022-02-15T17:01:48 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstance2 -->
+      </class> <!-- testScenarios.Test_Amazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
